@@ -1,0 +1,306 @@
+{"discos":[
+    {
+        "nombreDisco": "The Wall",
+        "interprete": "Pink Floyd",
+        "precio": 24.99,
+        "year": 1979,
+        "estilo": "Rock Progressivo",
+        "stock": 10
+      },
+      {
+        "nombreDisco": "Thriller",
+        "interprete": "Michael Jackson",
+        "precio": 34.99,
+        "year": 1982,
+        "estilo": "Pop",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Appetite For Destruction",
+        "interprete": "Guns N' Roses",
+        "precio": 29.99,
+        "year": 1987,
+        "estilo": "Hard Rock",
+        "stock": 3
+      },
+      {
+        "nombreDisco": "The Dark Side Of The Moon",
+        "interprete": "Pink Floyd",
+        "precio": 37.99,
+        "year": 1973,
+        "estilo": "Rock Progressivo",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Nevermind",
+        "interprete": "Nirvana",
+        "precio": 22.99,
+        "year": 1991,
+        "estilo": "Grunge",
+        "stock": 5
+      },
+      {
+        "nombreDisco": "The Joshua Tree",
+        "interprete": "U2",
+        "precio": 39.99,
+        "year": 1987,
+        "estilo": "Rock Alternativo",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Back In Black",
+        "interprete": "AC/DC",
+        "precio": 24.99,
+        "year": 1980,
+        "estilo": "Hard Rock",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Rumours",
+        "interprete": "Fleetwood Mac",
+        "precio": 33.99,
+        "year": 1977,
+        "estilo": "Rock",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "A Night At The Opera",
+        "interprete": "Queen",
+        "precio": 29.99,
+        "year": 1975,
+        "estilo":"Rock",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Kind of Blue",
+        "interprete": "Miles Davis",
+        "precio": 50,
+        "year": 1959,
+        "estilo": "Jazz",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "At the Village Vanguard",
+        "interprete": "John Coltrane",
+        "precio": 65,
+        "year": 1961,
+        "estilo": "Jazz",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Someday My Prince Will Come",
+        "interprete": "Miles Davis",
+        "precio": 35,
+        "year": 1961,
+        "estilo": "Jazz",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "A Love Supreme",
+        "interprete": "John Coltrane",
+        "precio": 40,
+        "year": 1965,
+        "estilo": "Jazz",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Mingus Ah Um",
+        "interprete": "Charles Mingus",
+        "precio": 40,
+        "year": 1959,
+        "estilo": "Jazz",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "The Cry of Love",
+        "interprete": "Jimi Hendrix",
+        "precio": 40,
+        "year": 1971,
+        "estilo": "Rock",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "The Last Don",
+        "interprete": "Don Omar",
+        "precio": 20.00,
+        "year": 2003,
+        "estilo": "Reggaeton",
+        "stock": 4
+    },
+    {
+        "nombreDisco": "Mas Flow",
+        "interprete": "Luny Tunes",
+        "precio": 15.00,
+        "year": 2003,
+        "estilo": "Reggaeton",
+        "stock": 4
+    },
+    {
+        "nombreDisco": "The Black Carpet",
+        "interprete": "Dyland y Lenny",
+        "precio": 25.00,
+        "year": 2007,
+        "estilo": "Reggaeton",
+        "stock": 4
+    },
+    {
+        "nombreDisco": "Los Monsters",
+        "interprete": "Calle 13",
+        "precio": 30.00,
+        "year": 2009,
+        "estilo": "Reggaeton",
+        "stock": 4
+    },
+    {
+        "nombreDisco": "Los Vaqueros",
+        "interprete": "Wisin y Yandel",
+        "precio": 35.00,
+        "year": 2005,
+        "estilo": "Reggaeton",
+        "stock": 4
+    },
+    {
+        "nombreDisco": "Romanticismo Clásico",
+        "interprete": "Beethoven",
+        "precio":   25,
+        "year": 1790,
+        "estilo": "Clásico",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Lieder",
+        "interprete": "Schubert",
+        "precio": 15,
+        "year": 1815,
+        "estilo": "Romántico",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Romanticismo en Piano",
+        "interprete": "Chopin",
+        "precio": 20,
+        "year": 1830,
+        "estilo": "Romántico",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Grieg: Suite Holberg",
+        "interprete": "Grieg",
+        "precio": 15,
+        "year": 1884,
+        "estilo": "Romántico",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Oberturas",
+        "interprete": "Mendelssohn",
+        "precio": 20,
+        "year": 1840,
+        "estilo": "Romántico",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Discos de Oro de la Cumbia Vol. 1",
+        "interprete": "Los Kjarkas",
+        "precio": 40.00,
+        "year": 1982,
+        "estilo": "Cumbia",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Cumbia Mix",
+        "interprete": "Los Ángeles Azules",
+        "precio": 50.00,
+        "year": 2006,
+        "estilo": "Cumbia",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Cumbia de todos los tiempos",
+        "interprete": "Los Cuatro de la Cumbia",
+        "precio": 35.00,
+        "year": 1992,
+        "estilo": "Cumbia",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Cumbia poderosa",
+        "interprete": "La Sonora Dinamita",
+        "precio": 45.00,
+        "year": 1980,
+        "estilo": "Cumbia",
+        "stock": 4
+      },
+      {
+        "nombreDisco": "Cumbia de moda",
+        "interprete": "Los Álamos de la Cumbia",
+        "precio": 50.00,
+        "year": 2003,
+        "estilo": "Cumbia",
+        "stock": 4
+      },
+      { "nombreDisco": "Fever Pitch", 
+        "interprete": "Basement", 
+        "precio": 10, 
+        "year": 2011,
+        "estilo": "Indie Rock",
+        "stock": 4
+    },
+        
+    
+    { "nombreDisco":"Where The Sidewalk Ends",
+        "interprete": "The Get Up Kids", 
+        "precio": 15, 
+        "year": 2002,
+        "estilo": "Indie Rock",
+        "stock": 4},
+    
+    {"nombreDisco":"Up The Bracket",
+        "interprete": "The Libertines", 
+        "precio": 12, 
+        "year": 2002,
+        "estilo": "Indie Rock",
+        "stock": 4},
+    
+    {"nombreDisco":"The Fat Of The Land",
+        "interprete": "The Prodigy", 
+        "precio": 11, 
+        "year": 1997,
+        "estilo": "Indie Electronic",
+        "stock": 4},
+    
+    {"nombreDisco":"In Rainbows",
+        "interprete": "Radiohead", 
+        "precio": 13, 
+        "year": 2007,
+        "estilo": "Indie Rock",
+        "stock": 4},
+    
+    {"nombreDisco":"Sigur Rós",
+        "interprete": "Ágætis Byrjun", 
+        "precio": 14, 
+        "year": 1999,
+        "estilo": "Indie Rock",
+        "stock": 4},
+    
+    {"nombreDisco":"Funeral",
+        "interprete": "Arcade Fire", 
+        "precio": 9, 
+        "year": 2004,
+        "estilo": "Indie Rock",
+        "stock": 4},
+    
+    {"nombreDisco":"Mezzanine",
+        "interprete": "Massive Attack", 
+        "precio": 16, 
+        "year": 1998,
+        "estilo": "Indie Electronic",
+        "stock": 4}
+    
+    
+
+
+]}
+
+
+
