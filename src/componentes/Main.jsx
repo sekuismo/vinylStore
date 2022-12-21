@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Comprando from '../img/comprando.jpg'
+
 
 import { Container,Row,Col ,Image} from 'react-bootstrap'
 
