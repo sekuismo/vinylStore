@@ -140,40 +140,48 @@ const Filtrar = () => {
     <p>Encarga un disco que no tengamos en nuestra lista</p>
     <br />
 
-    <form onSubmit={handleSubmit}>
-  <label>
-    Nombre del disco:
-    <input type="text" name="nombreDisco" />
-  </label>
-  <br />
-  <label>
-    Interprete:
-    <input type="text" name="interprete" />
-  </label>
-  <br />
-  <label>
-    Precio:
-    <input type="number" name="precio" />
-  </label>
-  <br />
-  <label>
-    Año:
-    <input type="number" name="year" />
-  </label>
-  <br />
-  <label>
-    Estilo:
-    <input type="text" name="estilo" />
-  </label>
-  <br />
-  <label>
-    Stock:
-    <input type="number" name="stock" />
-  </label>
-  <br />
-  <button type="submit">Enviar</button>
+    <form onSubmit={handleSubmit} style={{margin:'20px'}}>
+  <div className="form-group">
+    <label>
+      Nombre del disco:
+      <input type="text" className="form-control" name="nombreDisco" />
+    </label>
+  </div>
+  <div className="form-group">
+    <label>
+      Interprete:
+      <input type="text" className="form-control" name="interprete" />
+    </label>
+  </div>
+  <div className="form-group">
+    <label>
+      Precio:
+      <input type="number" className="form-control" name="precio" />
+    </label>
+  </div>
+  <div className="form-group">
+    <label>
+      Año:
+      <input type="number" className="form-control" name="year" />
+    </label>
+  </div>
+  <div className="form-group">
+    <label>
+      Estilo:
+      <input type="text" className="form-control" name="estilo" />
+    </label>
+  </div>
+  <div className="form-group">
+    <label>
+      Stock:
+      <input type="number" className="form-control" name="stock" />
+    </label>
+  </div>
+  <button type="submit" className="btn btn-primary">
+    Doble click para solicitar
+  </button>
 </form>
-<br />
+
 
 
 </Col>
