@@ -1,0 +1,11 @@
+.fondo{
+    
+    background-image: url(/src/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color:aliceblue;
+    font-size: 20px;
+    /* position: fixed;
+    bottom: 0; */
+    
+}
