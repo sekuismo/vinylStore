@@ -1,3 +1,5 @@
+Componente filtrar
+
 La función addToShoppingList se utiliza para agregar un disco a la lista de compras. 
 Esta función se llama cuando se hace clic en el botón "Agregar" junto a cada disco en 
 la lista de discos disponibles. La función toma un disco como argumento y agrega este 
@@ -30,4 +32,9 @@ Previene el comportamiento predeterminado del evento de envío de formulario, qu
 Crea una nueva instancia de FormData a partir del formulario que ha sido enviado.
 Obtiene los valores de los campos "nombreDisco", "interprete" y "estilo" del formulario utilizando 
 el método get de FormData.
-Crea un nuevo objeto
+
+
+
+
+
+

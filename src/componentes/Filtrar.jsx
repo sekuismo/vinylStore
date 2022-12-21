@@ -17,16 +17,53 @@ const Filtrar = () => {
   
 
   function addToShoppingList(disco) {
-    const updatedShoppingList = [...shoppingList, disco];
-    setShoppingList(updatedShoppingList);
-    localStorage.setItem('shoppingList', JSON.stringify(updatedShoppingList));
+    if (disco.stock > 0) {
+      // Decrementar el stock del disco
+      disco.stock--;
+  
+      // Realizar la petición HTTP PUT para actualizar el stock del disco
+      fetch(`http://localhost:3004/discos/${disco.id}`, {
+        method: 'PUT',
+        body: JSON.stringify(disco),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }).then(response => {
+        if (response.ok) {
+          // Agregar el disco al carrito de compras y actualizar el estado y localStorage
+          const updatedShoppingList = [...shoppingList, disco];
+          setShoppingList(updatedShoppingList);
+          localStorage.setItem('shoppingList', JSON.stringify(updatedShoppingList));
+        }
+      });
+    } else {
+      // Mostrar mensaje de error indicando que no hay suficiente stock disponible
+      alert("No hay suficiente stock disponible para este disco");
+    }
   }
   
+  
   function removeFromShoppingList(disco) {
-    const updatedShoppingList = shoppingList.filter(item => item !== disco);
-    setShoppingList(updatedShoppingList);
-    localStorage.setItem('shoppingList', JSON.stringify(updatedShoppingList));
+    // Incrementar el stock del disco
+    disco.stock++;
+  
+    // Realizar la petición HTTP PUT para actualizar el stock del disco
+    fetch(`http://localhost:3004/discos/${disco.id}`, {
+      method: 'PUT',
+      body: JSON.stringify(disco),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }).then(response => {
+      if (response.ok) {
+        // Eliminar el disco del carrito de compras y actualizar el estado y localStorage
+        const updatedShoppingList = shoppingList.filter(item => item !== disco);
+        setShoppingList(updatedShoppingList);
+        localStorage.setItem('shoppingList', JSON.stringify(updatedShoppingList));
+      }
+    });
   }
+  
   
   
   function getShoppingList() {
