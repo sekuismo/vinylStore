@@ -153,7 +153,7 @@ const Filtrar = () => {
             <br/>
             <Button onClick={handleClick}>Ver lista de compras</Button>
             {shoppingList.map(disco=> (
-<div key={disco.nombreDisco} style={{
+<div key={disco.id} style={{
       border: '1px solid black',
       padding: '10px',
       backgroundColor: '#e9ecef',
